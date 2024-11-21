@@ -194,18 +194,22 @@ a {
   font-weight: 700;
 }
 
+.title-1 {
+  color: #0EA5E9;
+}
+
 .title-2 {
-  color: #dc6803;
+  color: #B45309;
 }
 
 .title-3 {
-  color: #f04438;
+  color: #B91C1C;
 }
 
 .title-4 {
-  color: #067647;
+  color: #166534;
 }
 
 .title-5 {
-  color: #475467;
+  color: #4B5563;
 }
