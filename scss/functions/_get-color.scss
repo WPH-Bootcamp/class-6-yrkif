@@ -8,7 +8,8 @@
   // if they are not valid warn 'Invalid color type or level' and return null
   // null is a special value in Sass that means nothing, and it is used to represent the absence of a value, you need to return null if the type or level is not valid
 
-  @if map.has-key($colors, $type) and map.has-key(map.get($colors, $type), $level)
+  @if map.has-key($colors, $type) and
+    map.has-key(map.get($colors, $type), $level)
   {
     //this is checking whether $type (gray,brand,error,warning,success) and $level (25-900) are declared as variale
     @return map.get(map.get($colors, $type), $level); //returning the color code
